@@ -35,6 +35,8 @@ server.post('/api/v1/users', (req: Request, res: Response) => {
   return res.json(newUser)
 })
 
+// deletar um usuário
+
 server.listen(3000, () => {
   console.log('Servidor iniciado na porta 3000...')
 })
